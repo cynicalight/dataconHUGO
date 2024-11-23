@@ -1,8 +1,8 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://bu44er.top/"
-title = "bu44er"
+baseURL = "https://哋它亢.top/"
+title = "哋它亢"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -49,6 +49,8 @@ uglyURLs = false
 [permalinks]
     categories = "/categories/:slug/"
     tags = "/tags/:slug/"
+    posts = "/posts/:slug"
+
 
 # 类别
 [taxonomies]
@@ -92,7 +94,7 @@ uglyURLs = false
         lineNumbersInTable = true
         noClasses = false
     [markup.tableOfContents]
-        startLevel = 2
+        startLevel = 1
         endLevel = 6
         ordered = true
 
@@ -141,15 +143,20 @@ uglyURLs = false
     baseName = "algolia"
     isPlainText = true
     notAlternative = true
+# 摘要的字数限制  此处用于algolia检索
+summaryLength = 70
 
 # Hugo 的输出控制
 [outputs]
     page = ["HTML"]
-    # home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex", "Algolia"]
-    home = ["HTML", "SectionsAtom", "SectionsRSS"]
+    home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex", "Algolia"]
+    # home = ["HTML", "SectionsAtom", "SectionsRSS"]
     section = ["HTML"]
     taxonomy = ["HTML"]
     term = ["HTML"]
+
+    
+
 
 # RSS & Atom 文章数限制
 [services.rss]
@@ -181,36 +188,36 @@ uglyURLs = false
 
 [menu]
     ## 菜单栏
-    # [[menu.main]]
-    #     pageref = "/"
-    #     name = "首页"
-    #     weight = 1
-    #     pre = "internal"
-    #     post = "home"
     [[menu.main]]
-        pageref = "/posts/"
-        name = "文章"
+        pageref = "/"
+        name = "HOME"
+        weight = 1
+        pre = "internal"
+        post = ""
+    [[menu.main]]
+        pageref = "/dietakang/"
+        name = "DIETAKANG"
         weight = 2
         pre = "internal"
-        post = "archive"
+        post = ""
     [[menu.main]]
         pageref = "/categories/"
-        name = "分类"
+        name = "CATEGOTIES"
         weight = 3
         pre = "internal"
-        post = "th"
-    [[menu.main]]
-        pageref = "/tags/"
-        name = "标签"
-        weight = 4
-        pre = "internal"
-        post = "tags"
+        post = ""
+    # [[menu.main]]
+    #     pageref = "/tags/"
+    #     name = "标签"
+    #     weight = 4
+    #     pre = "internal"
+    #     post = "tags"
     [[menu.main]]
         pageref = "/about/"
-        name = "关于"
+        name = "ABOUT"
         weight = 5
         pre = "internal"
-        post = "user-circle"
+        post = ""
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
@@ -218,7 +225,7 @@ uglyURLs = false
         weight = 7
         identifier = "lang-switcher"
     # [[menu.main]]
-    #     weight = 8
+    #     weight = 6
     #     identifier = "search"
     #     post = "search"
 
@@ -270,7 +277,7 @@ uglyURLs = false
     # 如果否，则会使用你的站点标题作为默认值，并
     # 以文字的形式显示，下方可配置字号和字色。字
     # 体请到底部的字体部分配置。单位：em。
-    siteBrandFontSize = 1
+    siteBrandFontSize = 1.5
     siteBrandFontColor = "var(--color-contrast-high)"
 
 
@@ -282,7 +289,7 @@ uglyURLs = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否在首页显示
-    displayMenuInHome = true
+    displayMenuInHome = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否按文章分区高亮当前菜单项
@@ -301,11 +308,14 @@ uglyURLs = false
     # 3. posts     文章摘要
     # 4. page      普通页面
 
-    homeLayout = "posts"
+    homeLayout = "poetry"
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = []
+    homePoetry = ["# \n", "哋它亢", "官方技术文档", "哋 语言 与 它亢 架构的巧思", "来自哋它亢官方团队", 
+        "<a href=\"https://datacon-14447.xyz/dietakang/eec4cdb0/\">官方文档</a>", 
+        "<a href=\"http://datacon-test.xyz:8899/?contact/\">datacon网站</a>", 
+        "<img src=\"/img/logo.png\" alt=\"哋它亢datacon官方logo\" style=\"display: block; margin-left: auto; margin-right: auto; width: 300px; height: auto;\">"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -335,16 +345,16 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。"
+    siteDescription = "哋它亢官方技术文档, 哋语言 与 它亢架构的巧思, 来自哋它亢官方团队"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2024-09-16T20:17:43+00:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "reuixiy"
+    # siteTwitter = "reuixiy"
     # 说明：用于 Twitter Cards
 
 
@@ -400,9 +410,9 @@ uglyURLs = false
     # 字号单位
     fontUnit = "em"
     # 最大字号
-    largestFontSize = 2.5
+    largestFontSize = 3.5
     # 最小字号
-    smallestFontSize = 1
+    smallestFontSize = 2
 
 
     ######################################
@@ -635,11 +645,11 @@ uglyURLs = false
 
     ## Gitalk
     enableGitalk = false
-    gitalkClientID = "your_client_id"
-    gitalkClientSecret = "your_client_secret"
-    gitalkRepo = "your_repository"
-    gitalkOwner = "your_gitalk_owner"
-    gitalkAdmin = ["your_gitalk_admin"]
+    gitalkClientID = "Ov23liPEu4AuKJ8pJngH"
+    gitalkClientSecret = "7d4d1885f291fa044647ca789920beb4fdae7fc4"
+    gitalkRepo = "cynicalight.github.io"
+    gitalkOwner = "cynicalight"
+    gitalkAdmin = ["cynicalight"]
 
     # 1. default (`location.href`)
     # 2. pathname (`location.pathname`)
@@ -836,7 +846,7 @@ uglyURLs = false
     readingTimeIcon = "clock"
 
     # 是否显示不蒜子页面浏览量
-    displayBusuanziPagePV = false
+    displayBusuanziPagePV = true
     # 不蒜子页面浏览量的图标
     busuanziPagePVIcon = "eye"
     # 说明：仅在生产环境（production）下渲染
@@ -855,7 +865,7 @@ uglyURLs = false
     # 文章目录
 
     # 是否开启（全局设置）
-    enableTOC = false
+    enableTOC = true
     # 说明：文章的 Front Matter 中的 `toc`
     #      的优先级高于此处
 
@@ -863,7 +873,7 @@ uglyURLs = false
     displayTOCTitle = true
 
     # 是否显示数字（全局设置）
-    displayTOCNum = true
+    displayTOCNum = false
     # 说明：文章的 Front Matter 中的 `tocNum`
     #      的优先级高于此处
 
@@ -1015,7 +1025,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 16
+    fontSize = 19
 
     ######################################
     ## 制表符的宽度
@@ -1171,7 +1181,7 @@ uglyURLs = false
     # 文章分享
 
     # 是否开启
-    enablePostShare = true
+    enablePostShare = false
 
     # 是否显示（全局设置）
     displayPostShare = true
@@ -1238,7 +1248,7 @@ uglyURLs = false
     # 极简页脚
 
     # 是否开启
-    enableMinimalFooter = false
+    enableMinimalFooter = true
     enableVerticalBarStructure = false
     # 说明：如果开启此项，显示在右边的部类或分区
     #      将会包含全部的第一级部类或分区，并且
@@ -1305,7 +1315,7 @@ uglyURLs = false
     # 自定义页脚（支持 Markdown）
     customFooter = ""
 
-    displayBusuanziSiteUVAndPV = false
+    displayBusuanziSiteUVAndPV = true
     busuanziSiteUVText = "本站访客数"
     busuanziSiteUVIcon = "user"
     busuanziSitePVText = "本站访问量"
@@ -1315,7 +1325,7 @@ uglyURLs = false
     #      https://busuanzi.ibruce.info/
 
     # 社交链接
-    enableSocials = true
+    enableSocials = false
     # 说明：见 data/Socials.toml
 
 
@@ -1424,7 +1434,7 @@ uglyURLs = false
 
     algoliaAppId = ""
     algoliaApiKey = ""
-    algoliaIndexName = ""
+    algoliaIndexName = "algoliaIndex"
     # 说明：https://www.algolia.com/
 
 
@@ -1477,16 +1487,13 @@ uglyURLs = false
     # 作者信息
     [params.author]
         # 名字
-        name = "reuixiy"
+        name = "哋它亢的公告"
         # 邮箱
-        email = "reuixiy@gmail.com"
+        email = "哋它亢@哋它亢.com"
         # 座右铭或简介
-        motto = "Viva La Vida"
+        motto = "Would you see 哋它亢 now?"
         # 头像
         avatar = "/icons/apple-touch-icon.png"
         # 网站（默认值：baseURL）
-        website = "https://io-oi.me/"
-        # 推特
-        twitter = "reuixiy"
-        # Fediverse
-        fediverse = "@reuixiy@bird.makeup"
+        website = "https://哋它亢.top/"
+

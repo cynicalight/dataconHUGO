@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "b6f7c661cae81c9a",
+    "type": "split",
+    "children": [
+      {
+        "id": "85fad60d2ee9d3ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8d2dbe7a3120311",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "archetypes/sec.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9d6c7b6f6967b1c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "42f4bcfc8fc148f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4500a65cbe4c4d07",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "02d825053934e725",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "26169a60082a4cc1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d353435f60dfca82",
+    "type": "split",
+    "children": [
+      {
+        "id": "19f9b88e5a9851f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "161b2e0ca4b08228",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "archetypes/sec.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bc935f5c6eac8600",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "archetypes/sec.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cbec51743d88b260",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "767c71f627437845",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "archetypes/sec.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-read-it-later:ReadItLater: Save clipboard": false
+    }
+  },
+  "active": "a8d2dbe7a3120311",
+  "lastOpenFiles": [
+    "content/posts/未命名.md",
+    "content/wp/GYCTF2020---Blacklist.md",
+    "content/wp/GXYCTF2019---BabySQli.md",
+    "content/wp/fakebook.md",
+    "content/wp/CTFHUB---SSRF-POST请求.md",
+    "content/wp",
+    "content/posts/wp/test.md",
+    "content/posts/wp",
+    "content/sec/wp/test.md",
+    "content/sec/wp",
+    "archetypes/wp.md",
+    "archetypes/sec.md",
+    "content/posts/test.md",
+    "public/css/meme.min.b7fcd7a4035bd14a580a0e2321cbed464e7e92502ffa8a4f7c9db7bef8a6c915.css",
+    "public/css/meme.min.c6f7f17456c9ef926262e78aff31e8104bf272cf52a75e6c95eb451a50d12f66.css",
+    "content/cs/hugo图片插入结合obsidian的工作流.md",
+    "public/js/meme.min.ae7698c74c98a05e91db2257dd6463ad1a46670465dc94f3a54f01447f272545.js",
+    "public/js/meme.min.8775205d608c8949e3e3753c18cd481c54f0bbe48db524031fd5d8df4c486a83.js",
+    "layouts/index.algolia.json",
+    "node_modules/fsevents/build/config.gypi",
+    "node_modules/fsevents/build",
+    "node_modules/regenerate-unicode-properties/README.md",
+    "node_modules/events/Readme.md",
+    "node_modules/events/History.md",
+    "node_modules/es6-promise/README.md",
+    "node_modules/es6-promise/CHANGELOG.md",
+    "node_modules/envify/README.md",
+    "node_modules/agentkeepalive/History.md",
+    "node_modules/unicode-canonical-property-names-ecmascript/README.md",
+    "node_modules/agentkeepalive/README.md",
+    "node_modules/global/README.md",
+    "node_modules/foreach/Readme.md",
+    "node_modules/atomic-algolia/README.md",
+    "node_modules/@nicolo-ribaudo/chokidar-2/README.md",
+    "node_modules/core-js/README.md",
+    "node_modules/core-js/CHANGELOG.md",
+    "public/img/Pasted image 20240917020652.png",
+    "public/img/Pasted image 20240917020645.png",
+    "public/img/Pasted image 20240917020558.png",
+    "img/Pasted image 20240917020652.png",
+    "img/Pasted image 20240917020645.png",
+    "img/Pasted image 20240917020558.png",
+    "static/img/Pasted image 20240917020652.png",
+    "static/img/Pasted image 20240917020645.png",
+    "static/img/Pasted image 20240917020558.png",
+    "public/img/Pasted image 20240917014725.png"
+  ]
+}

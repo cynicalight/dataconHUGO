@@ -1,0 +1,162 @@
+{
+  "workspaces": {
+    "大纲形式笔记": {
+      "main": {
+        "id": "6fdba4f59ebb746f",
+        "type": "split",
+        "children": [
+          {
+            "id": "f8a059cd8eea687d",
+            "type": "tabs",
+            "dimension": 15.29051987767584,
+            "children": [
+              {
+                "id": "41890e0818c38044",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "dcdcfe9a8998db24",
+            "type": "tabs",
+            "dimension": 84.70948012232415,
+            "children": [
+              {
+                "id": "fc32375274e27f50",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "b4095fa3b5fee44f",
+        "type": "split",
+        "children": [
+          {
+            "id": "5dbae4a024f88a1a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "004a6b3b2c9ab76e",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "111863375681fdd4",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "171f23043970f38f",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200,
+        "collapsed": true
+      },
+      "right": {
+        "id": "6bbdf2c93fcb9860",
+        "type": "split",
+        "children": [
+          {
+            "id": "f8d897dba7e0059c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aa3bf6d7f66c1d2f",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "218aa81f4888814d",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2a98e46d03240538",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "workspaces:管理工作区布局": false,
+          "random-note:开始漫游笔记": false,
+          "audio-recorder:开始/结束录音": false,
+          "zk-prefixer:创建时间戳笔记": false,
+          "templater-obsidian:Templater": false
+        }
+      },
+      "active": "fc32375274e27f50"
+    }
+  },
+  "active": "大纲形式笔记"
+}
